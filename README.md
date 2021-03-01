@@ -4,22 +4,26 @@ Ensimmäiset testit menee läpi.
 
 ## ENDPOINTIT:
 
+### Objects:
 /GET
-api/objects/ ALL
-api/objects/:id ONE
-api/objects/:categories CATEGORIES
+- api/objects/ ALL
+- api/objects/:id ONE
+- api/objects/:categories CATEGORIES
 
+### Users:
 /GET/POST/PUT/DELETE
-api/users ALL
-api/users/:id ONE
+- api/users ALL
+- api/users/:id ONE
 
+### Finds:
 /GET/POST/PUT/DELETE
-api/finds/:userId
-api/finds/:objectId
-api/finds/:id
+- api/finds/:userId
+- api/finds/:objectId
+- api/finds/:id
 
+### Login:
 /POST
-api/login POST
+- api/login POST
   - palauttaa tokenin
 
 ## MODELIT:
